@@ -338,3 +338,10 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+
+#######################################
+# Custom Changes for this Project below
+#######################################
+
+# Ignore uploaded images (blobs) and Episerver Search indexes in App_Data
+/StartingFromScratchLabb/App_Data
