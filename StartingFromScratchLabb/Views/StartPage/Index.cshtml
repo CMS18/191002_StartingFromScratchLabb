@@ -3,3 +3,16 @@
 <div> 
     @Model.CurrentPage.Name
 </div>
+
+@*Skip whole block if there are no pages in list*@
+@if (Model.ChildPages.Count > 0)
+{
+<ul>
+    @*Loop Through list of pages - This can be done in many ways, foreach is only one way but for, do and do-while can be used too.*@
+    @for (int i = 0; i < Model.ChildPages.Count; i++)
+    {
+        //Html.ContentLink - Extension Method will take
+        <li>Page @(i+1): @Html.ContentLink(Model.ChildPages[i])</li>
+    }
+</ul>
+}
