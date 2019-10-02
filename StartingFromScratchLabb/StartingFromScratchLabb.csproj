@@ -231,7 +231,6 @@
     <Folder Include="Models\Media\" />
     <Folder Include="Models\Properties\" />
     <Folder Include="Static\" />
-    <Folder Include="Views\Shared\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Web.config" />
@@ -247,6 +246,8 @@
     <Content Include="modules\_protected\EPiServer.Cms.TinyMce\EPiServer.Cms.TinyMce.zip" />
     <None Include="packages.config" />
     <Content Include="Views\StartPage\Index.cshtml" />
+    <Content Include="Views\Shared\Layouts\_Root.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
