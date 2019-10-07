@@ -22,13 +22,14 @@ namespace StartingFromScratchLabb.Business
         {
             var model = new RootLayoutViewModel();
 
-            model.Title = page.Name;
-            model.Description = "???"; //TODO: Where do we get the description from?
-
             // Initialize these from Start Page.
             var start = loader.Get<StartPage>(ContentReference.StartPage);
             model.CompanyName = start.CompanyName;
             model.FooterText = start.FooterText;
+
+            model.Title = page.Name + " | " + start.CompanyName;
+            model.Description = "???"; //TODO: Where do we get the description from?
+
 
             return model;
         }
