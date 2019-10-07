@@ -7,11 +7,18 @@ using EPiServer.SpecializedProperties;
 
 namespace StartingFromScratchLabb.Models.Pages
 {
+
     // NB! Name and description are in lang/ContentType.xml file
 
-    [ContentType(GUID = "adc6bf62-d5f5-4877-af3d-57bec78bbbf3")]
-    public class StartPage : PageData
+    [ContentType(GUID = "f75ec1ea-37f9-4d5d-9f0d-e70df3ce32b4")]
+    public class StandardPage : PageData
     {
+
+
+        [Display(GroupName = SystemTabNames.Content, 
+            Order = 1)]
+        [CultureSpecific]
+        public virtual XhtmlString MainBody { get; set; }
 
     }
 }

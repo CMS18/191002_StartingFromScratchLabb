@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<languages>
+  <language name="English"
+            id="en">
+    <contenttypes>
+      <startpage>
+        <name>Start Page</name>
+        <description>The home page of the website</description>
+        <properties>
+
+        </properties>
+      </startpage>
+      <standardpage>
+        <name>Standard Page</name>
+        <description>Base page with text and content.</description>
+        <properties>
+
+        </properties>
+      </standardpage>
+      <!-- Common properties-->
+      <icontentdata>
+        <properties>
+          <mainbody>
+            <caption>Main body</caption>
+            <help>Main editorial content of the page</help>
+          </mainbody>
+        </properties>
+      </icontentdata>
+    </contenttypes>
+  </language>
+</languages>
+
