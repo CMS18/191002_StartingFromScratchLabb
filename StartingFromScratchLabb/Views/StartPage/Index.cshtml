@@ -1,8 +1,8 @@
 ﻿@model StartPageViewModel
 
-<div> 
+<h1> 
     @Model.CurrentPage.Name
-</div>
+</h1>
 
 @*Skip whole block if there are no pages in list*@
 @if (Model.ChildPages.Count > 0)

@@ -2,13 +2,30 @@
     Layout = null;
 }
 
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="??">
+@*TODO: Make lang dynamic*@
 <head>
-    <meta name="viewport" content="width=device-width" />
-    <title>_Root</title>
+    <meta charset="utf-8" />
+    <title>???</title> @*TODO: Make title dynamic*@
+    <meta name="description" content="???"> @*TODO: Make description dynamic*@
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 </head>
 <body>
-    @RenderBody()
+    <header>
+        <div class="visuallyhidden" role="navigation">
+            <a href="#main">Hoppa till innehållet</a>
+        </div>
+        <nav></nav>
+    </header>
+
+
+
+    <main id="main">
+        @RenderBody()
+    </main>
+
+    <footer>
+    </footer>
 </body>
 </html>
