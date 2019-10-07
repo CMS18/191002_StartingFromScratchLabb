@@ -240,7 +240,10 @@
     <Folder Include="Static\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="lang\ContentTypes.sv.xml" />
     <Content Include="lang\ContentTypes.xml" />
+    <Content Include="lang\GroupNames.sv.xml" />
+    <Content Include="lang\GroupNames.xml" />
     <Content Include="Views\Web.config" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
