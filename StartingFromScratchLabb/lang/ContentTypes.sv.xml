@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<languages>
+  <language name="Svenska"
+            id="sv">
+    <contenttypes>
+      <startpage>
+        <name>Startsida</name>
+        <description>Hemsidan för din sajt</description>
+        <properties>
+          <companyname>
+            <caption>Företagsnamn</caption>
+            <help>Den här texten används som alternativ text för logo på alla sidor</help>
+          </companyname>
+          <footertext>
+            <caption>Text i sidfot</caption>
+            <help>Den här texten används för sajtens copyright och information</help>
+          </footertext>
+        </properties>
+      </startpage>
+      <standardpage>
+        <name>Standardsida</name>
+        <description>Bassida för alla sidor med text och innehåll</description>
+        <properties>
+
+        </properties>
+      </standardpage>
+      <!-- Common properties-->
+      <icontentdata>
+        <properties>
+          <mainbody>
+            <caption>Brödtext</caption>
+            <help>Redaktionellt innehåll för sidan.</help>
+          </mainbody>
+        </properties>
+      </icontentdata>
+    </contenttypes>
+  </language>
+</languages>
+

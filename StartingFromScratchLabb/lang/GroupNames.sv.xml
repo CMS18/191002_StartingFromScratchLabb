@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<languages>
+
+  <language name="Svenska"
+            id="sv">
+
+    <headings>
+      <heading name="Information">
+        <description>Innehåll</description>
+      </heading>
+      <heading name="Advanced">
+        <description>Inställningar</description>
+      </heading>
+      <heading name="MetaData">
+        <description>SEO</description>
+      </heading>
+      <heading name="SiteSettings">
+        <description>Sajtinställningar</description>
+      </heading>
+      <heading name="Specialized">
+        <description>Special</description>
+      </heading>
+    </headings>
+
+  </language>
+
+</languages>
