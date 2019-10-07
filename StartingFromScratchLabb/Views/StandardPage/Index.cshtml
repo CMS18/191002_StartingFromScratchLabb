@@ -1,0 +1,23 @@
+﻿@model StandardPageViewModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div> 
+        <h1 @Html.EditAttributes(m => m.CurrentPage.Name)>
+           @Html.DisplayFor(m => m.CurrentPage.Name)
+        </h1>
+        <div>
+            @Html.PropertyFor(m => m.CurrentPage.MainBody)
+        </div>
+    </div>
+</body>
+</html>
