@@ -1,4 +1,5 @@
-﻿@{
+﻿@model IWithRootLayout
+@{
     Layout = null;
 }
 
@@ -7,8 +8,8 @@
 @*TODO: Make lang dynamic*@
 <head>
     <meta charset="utf-8" />
-    <title>???</title> @*TODO: Make title dynamic*@
-    <meta name="description" content="???"> @*TODO: Make description dynamic*@
+    <title>@Model.Layout.Title</title>
+    <meta name="description" content="@Model.Layout.Description"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 </head>
 <body>
@@ -16,7 +17,9 @@
         <div class="visuallyhidden" role="navigation">
             <a href="#main">Hoppa till innehållet</a>
         </div>
-        <nav></nav>
+        <nav>
+            @Model.Layout.CompanyName
+        </nav>
     </header>
 
 
@@ -26,6 +29,7 @@
     </main>
 
     <footer>
+        @Model.Layout.FooterText
     </footer>
 </body>
 </html>

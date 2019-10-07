@@ -6,8 +6,9 @@ using StartingFromScratchLabb.Models.Pages;
 
 namespace StartingFromScratchLabb.Models.ViewModels
 {
-    public class StandardPageViewModel
+    public class StandardPageViewModel: IWithRootLayout
     {
+        public RootLayoutViewModel Layout { get; set; }
         public StandardPage CurrentPage { get; set; }
 
     }

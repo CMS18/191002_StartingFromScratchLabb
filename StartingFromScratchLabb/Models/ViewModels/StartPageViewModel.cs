@@ -7,10 +7,13 @@ using StartingFromScratchLabb.Models.Pages;
 
 namespace StartingFromScratchLabb.Models.ViewModels
 {
-    public class StartPageViewModel
+    public class StartPageViewModel: IWithRootLayout
     {
+        public RootLayoutViewModel Layout { get; set; }
+
         public StartPage CurrentPage { get; set; }
 
         public IList<PageData> ChildPages { get; set; }
+
     }
 }

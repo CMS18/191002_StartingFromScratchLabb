@@ -13,5 +13,12 @@ namespace StartingFromScratchLabb.Models.Pages
     public class StartPage : PageData
     {
 
+        /* Site Wide Settings */
+        [Display(Order = 100100, GroupName = GroupNames.SiteSettings)]
+        public virtual string CompanyName { get; set; }
+
+        [Display(Order = 100110, GroupName = GroupNames.SiteSettings)]
+        public virtual string FooterText { get; set; }
+
     }
 }

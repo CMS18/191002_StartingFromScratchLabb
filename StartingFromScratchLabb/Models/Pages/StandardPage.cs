@@ -15,8 +15,7 @@ namespace StartingFromScratchLabb.Models.Pages
     {
 
 
-        [Display(GroupName = SystemTabNames.Content, 
-            Order = 1)]
+        [Display(Order = 10100, GroupName = GroupNames.Content)]
         [CultureSpecific]
         public virtual XhtmlString MainBody { get; set; }
 

@@ -7,7 +7,14 @@
         <name>Start Page</name>
         <description>The home page of the website</description>
         <properties>
-
+          <CompanyName>
+            <caption>Name of Company</caption>
+            <help>This text is used on all pages as alternate text to logo</help>
+          </CompanyName>
+          <FooterText>
+            <caption>Text in page footer</caption>
+            <help>This text is used on all pages for site copyright and information</help>
+          </FooterText>
         </properties>
       </startpage>
       <standardpage>
